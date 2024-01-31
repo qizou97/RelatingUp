@@ -17,9 +17,9 @@ Description     :
 
 
 import torch
-from torch.distributed.pipeline.sync.microbatch import Batch
 
 from models.base import LModule
+from torch_geometric.data import Batch
 
 
 class Backbone(LModule):
