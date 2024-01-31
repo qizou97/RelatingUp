@@ -8,7 +8,7 @@ Email           : qizou@mail.sdu.edu.cn
 Date            : 2024-01-25 16:31:51
 -------------------------------------------------
 Change Activity :
-  LastEditTime  : 2024-01-25 16:31:51
+  LastEditTime  : 2024-01-31 10:19:00
   LastEditors   : Qi Zou & qizou@mail.sdu.edu.cn
 -------------------------------------------------
 Description     : 
@@ -17,9 +17,9 @@ Description     :
 
 
 import torch
+from torch_geometric.data import Batch
 
 from models.base import LModule
-from torch_geometric.data import Batch
 
 
 class Backbone(LModule):
